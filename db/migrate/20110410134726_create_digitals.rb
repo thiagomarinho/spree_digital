@@ -1,4 +1,4 @@
-class CreateDigitals < ActiveRecord::Migration
+class CreateDigitals < ActiveRecord::Migration[5.1]
   
   def self.up
     create_table :digitals do |t|
